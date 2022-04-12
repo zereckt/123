@@ -1,5 +1,7 @@
 # CI & CD
 
+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
+
 Continous Integration — непрерывная интеграция (когда программист делает push, CI делает сборку и тестирование)
 Continous Deployment / Delivery — непрерывная развертывание / доставка (после CI, если все успешно CD развертывает сборку на серверах)
 
