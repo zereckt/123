@@ -1,4 +1,4 @@
-FROM docker/whalesay:latest
-git clone https://github.com/python-telegram-bot/python-telegram-bot --recursive
-cd python-telegram-bot
-python setup.py install
+FROM python:slim
+COPY . .
+RUN pip install python-telegram-bot
+CMD python bot.py
