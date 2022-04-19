@@ -21,3 +21,4 @@ jobs:
           script: |
             echo ${{ secrets.TOKEN }} | docker login --username ${{ github.actor }} --password-stdin ghcr.io
             docker run --rm --detach ghcr.io/${{ github.actor }}/bot:latest
+
